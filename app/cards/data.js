@@ -25,13 +25,13 @@ export default class Cards extends Emitter {
       used = JSON.parse(localStorage.getItem(STORAGE_KEYS.USED));
       used = used && used.length ? used : [];
     }
-  
+
     var cb = function (data, fromCache) {
       if (!fromCache) {
         data.forEach((card, x) => {
           card.id = x;
           if (!card.img) {
-            card.img = (card.name.name.toLowerCase().replace(' ', '_', 'g') + '.jpg');
+            card.img = (card.name.name.replace(' ', '_', 'g') + '.jpg');
           }
           card.img = IMAGE_PATH + card.img;
 
