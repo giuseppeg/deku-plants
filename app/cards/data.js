@@ -51,7 +51,7 @@ export default class Cards extends Emitter {
     }
 
     xhr({
-      uri: "/data.json"
+      uri: "./data.json"
     }, (err, resp, body) => {
       if (err || resp.statusCode !== 200) {
         return;
