@@ -1,0 +1,38 @@
+*, 
+*:before, 
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: transparent;    
+  color: inherit;
+  fill: inherit;
+  line-height: 1;
+}
+
+html, body, main { height: 100%; }
+header,
+nav,
+article,
+section {
+    display: block;
+}
+
+a:focus {
+    outline: thin dotted;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+ol,
+ul {
+  list-style: none;
+}

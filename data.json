@@ -1,0 +1,1702 @@
+[
+    {
+        "family": "Adoxaceae",
+        "name": {
+            "name": "Sambucus nigra",
+            "german name": "schwarzer holunder"
+        },
+        "questions": [
+            {
+                "q": "fruchttyp",
+                "a": "answerNW"
+            },
+            {
+                "q": "standort",
+                "a": "answerNW"
+            }
+        ]
+    },
+    {
+        "family": "Amaryllidaceae",
+        "name": {
+            "name": "Galanthus nivalis",
+            "german name": "schneeglöckchen"
+        },
+        "questions": [
+            {
+                "q": "fruchtknotenstellung",
+                "a": "unterständig"
+            },
+            {
+                "q": "speicherorgan",
+                "a": "zwiebel"
+            }
+        ]
+    },
+    {
+        "family": "Amaryllidaceae",
+        "name": {
+            "name": "Allium ursinum",
+            "german name": "bärlauch"
+        },
+        "questions": [
+            {
+                "q": "blütenstand",
+                "a": "dolde"
+            },
+            {
+                "q": "standort",
+                "a": "Auwald"
+            }
+        ]
+    },
+    {
+        "family": "Amaryllidaceae",
+        "name": {
+            "name": "Allium schoenoprasum",
+            "german name": "schnittlauch"
+        },
+        "questions": [
+            {
+                "q": "blütenhülle",
+                "a": "6 perigonblätter, 2 hüllblätter"
+            },
+            {
+                "q": "fruchttyp",
+                "a": "kapselfrucht"
+            }
+        ]
+    },
+    {
+        "family": "Apiaceae",
+        "name": {
+            "name": "Anthriscus sylvestris",
+            "german name": "wiesenkerbel"
+        },
+        "questions": [
+            {
+                "q": "blütenstand",
+                "a": "doppeldolde"
+            },
+            {
+                "q": "fruchttyp",
+                "a": "spaltfrucht"
+            }
+        ]
+    },
+    {
+        "family": "Apiaceae",
+        "name": {
+            "name": "Daucus carota",
+            "german name": "wilde möhre"
+        },
+        "questions": [
+            {
+                "q": "fruchttyp",
+                "a": "spaltfrucht"
+            },
+            {
+                "q": "lebensalter",
+                "a": "2-jährig"
+            }
+        ]
+    },
+    {
+        "family": "Araceae",
+        "name": {
+            "name": "Arum maculatum",
+            "german name": "aronstab"
+        },
+        "questions": [
+            {
+                "q": "blütenstand",
+                "a": "kolben, ein einzelnes hochblatt umgibt den kolben"
+            },
+            {
+                "q": "nervatur",
+                "a": "netznervig"
+            }
+        ]
+    },
+    {
+        "family": "Araliaceae",
+        "name": {
+            "name": "Hedera helix",
+            "german name": "efeu"
+        },
+        "questions": [
+            {
+                "q": "wuchsform",
+                "a": "verholzte liane, wurzelkletterer"
+            },
+            {
+                "q": "fruchttyp",
+                "a": "blauschwarze beere"
+            }
+        ]
+    },
+    {
+        "family": "Asclepiadaceae",
+        "name": {
+            "name": "Cynanchum vincetoxicum",
+            "german name": "schwalbenwurzel"
+        },
+        "questions": [
+            {
+                "q": "laubblattform",
+                "a": "einfach, ganzrandig"
+            },
+            {
+                "q": "fruchttyp",
+                "a": "balgfrucht"
+            }
+        ]
+    },
+    {
+        "family": "Asparagaceae",
+        "name": {
+            "name": "Convallaria majalis",
+            "german name": "maiglöckchen"
+        },
+        "questions": [
+            {
+                "q": "blütenstand",
+                "a": "traube"
+            },
+            {
+                "q": "wuchsform",
+                "a": "rhizomgeophyt"
+            }
+        ]
+    },
+    {
+        "family": "Asteraceae",
+        "name": {
+            "name": "Achillea millefolium",
+            "german name": "schafgarbe"
+        },
+        "questions": [
+            {
+                "q": "laubblattform",
+                "a": "fiedrig"
+            },
+            {
+                "q": "blütenstand",
+                "a": "körbchen in dolden"
+            }
+        ]
+    },
+    {
+        "family": "Asteraceae",
+        "name": {
+            "name": "Artemisia vulgaris",
+            "german name": "beifuß"
+        },
+        "questions": [
+            {
+                "q": "bestäubungstyp",
+                "a": "windbestäubung"
+            },
+            {
+                "q": "verwendung",
+                "a": "heilpflanze, magen/darm"
+            }
+        ]
+    },
+    {
+        "family": "Asteraceae",
+        "name": {
+            "name": "Arcticum lappa",
+            "german name": "große klette"
+        },
+        "questions": [
+            {
+                "q": "involukralblätter",
+                "a": "nach innen gebogene häkchen"
+            },
+            {
+                "q": "standort",
+                "a": "frische nährstoffreiche lehmböden"
+            }
+        ]
+    },
+    {
+        "family": "Asteraceae",
+        "name": {
+            "name": "Bellis perennis",
+            "german name": "gänseblümchen"
+        },
+        "questions": [
+            {
+                "q": "wuchsform",
+                "a": "flach, rosettig, krautig"
+            },
+            {
+                "q": "standort",
+                "a": "wiesen"
+            }
+        ]
+    },
+    {
+        "family": "Asteraceae",
+        "name": {
+            "name": "Centaurea jacea",
+            "german name": "wiesenflockenblume"
+        },
+        "questions": [
+            {
+                "q": "blütendifferenzierung",
+                "a": "röhrenblüten, innen fertil, außen steril"
+            },
+            {
+                "q": "standort",
+                "a": "wiesen, stickstoffreich, wegrand"
+            }
+        ]
+    },
+    {
+        "family": "Asteraceae",
+        "name": {
+            "name": "Cirsium vulgare",
+            "german name": "speerdistel, gewöhnl. kratzdistel"
+        },
+        "questions": [
+            {
+                "q": "laubblattform",
+                "a": "doppelt fiederspaltig, oval-lanzettlich"
+            },
+            {
+                "q": "lebensalter",
+                "a": "2-jährig"
+            }
+        ]
+    },
+    {
+        "family": "Asteraceae",
+        "name": {
+            "name": "Leontodon autumnalis",
+            "german name": "herbstlöwenzahn"
+        },
+        "questions": [
+            {
+                "q": "blütendifferenzierung",
+                "a": "zungenblüten"
+            },
+            {
+                "q": "fruchttyp",
+                "a": "achäne"
+            }
+        ]
+    },
+    {
+        "family": "Asteraceae",
+        "name": {
+            "name": "Matricaria chamomilla",
+            "german name": "kamille"
+        },
+        "questions": [
+            {
+                "q": "fruchttyp",
+                "a": "achäne"
+            },
+            {
+                "q": "standort",
+                "a": "äcker, ödland"
+            }
+        ]
+    },
+    {
+        "family": "Asteraceae",
+        "name": {
+            "name": "Taraxacum officinale",
+            "german name": "löwenzahn"
+        },
+        "questions": [
+            {
+                "q": "laubblattform",
+                "a": "lanzettlich, tief eingeschnitten, gelappt"
+            },
+            {
+                "q": "wurzel",
+                "a": "pfahlwurzeln"
+            }
+        ]
+    },
+    {
+        "family": "Asteraceae",
+        "name": {
+            "name": "Tussilago farfara",
+            "german name": "huflattich"
+        },
+        "questions": [
+            {
+                "q": "blütenzeit",
+                "a": "frühjahr, märz-april"
+            },
+            {
+                "q": "verwendung",
+                "a": "hustenmittel"
+            }
+        ]
+    },
+    {
+        "family": "Berberidaceae",
+        "name": {
+            "name": "Berberis vulgaris",
+            "german name": "berberitze"
+        },
+        "questions": [
+            {
+                "q": "wuchsform",
+                "a": "sommergrüner strauch"
+            },
+            {
+                "q": "laubblatt",
+                "a": "einfach, ellyptisch"
+            }
+        ]
+    },
+    {
+        "family": "Berberidaceae",
+        "name": {
+            "name": "Mahonia aquifolium",
+            "german name": "gewöhnl. mahonie"
+        },
+        "questions": [
+            {
+                "q": "laubblattform",
+                "a": "unpaarig gefiedert, immergrün"
+            },
+            {
+                "q": "indigenat",
+                "a": "nordamerika, neophyt"
+            }
+        ]
+    },
+    {
+        "family": "Betulaceae",
+        "name": {
+            "name": "Betula pendula",
+            "german name": "birke"
+        },
+        "questions": [
+            {
+                "q": "blütenstand",
+                "a": "kätzchen"
+            },
+            {
+                "q": "fruchttyp",
+                "a": "flügelnuss"
+            }
+        ]
+    },
+    {
+        "family": "Betulaceae",
+        "name": {
+            "name": "Carpinus betulus",
+            "german name": "hainbuche"
+        },
+        "questions": [
+            {
+                "q": "laubblattform",
+                "a": "einfach, ellyptisch, ei-förmig"
+            },
+            {
+                "q": "fruchttyp",
+                "a": "flügelnuss"
+            }
+        ]
+    },
+    {
+        "family": "Betulaceae",
+        "name": {
+            "name": "Corylus avellana",
+            "german name": "gemeine hasel"
+        },
+        "questions": [
+            {
+                "q": "wuchsform",
+                "a": "mehrstämmiger strauch"
+            },
+            {
+                "q": "blütenstand",
+                "a": "männl. hängende kätzchen, weibl. fadenartige narbe"
+            }
+        ]
+    },
+    {
+        "family": "Boraginaceae",
+        "name": {
+            "name": "Echium vulgare",
+            "german name": "gewöhnlicher natternkopf"
+        },
+        "questions": [
+            {
+                "q": "epidermalanhänge",
+                "a": "steife borsten"
+            },
+            {
+                "q": "blütenstand",
+                "a": "thyrse"
+            }
+        ]
+    },
+    {
+        "family": "Boraginaceae",
+        "name": {
+            "name": "Myosotis arvensis",
+            "german name": "vergissmeinnicht"
+        },
+        "questions": [
+            {
+                "q": "kronenform",
+                "a": "radförmig, radiärsymmetrisch"
+            },
+            {
+                "q": "fruchttyp",
+                "a": "4-teilige spaltfrucht"
+            }
+        ]
+    },
+    {
+        "family": "Boraginaceae",
+        "name": {
+            "name": "Pulmonaria officinalis",
+            "german name": "lungenkraut"
+        },
+        "questions": [
+            {
+                "q": "kronblattfärbung",
+                "a": "jung rot, alt blau-violett"
+            },
+            {
+                "q": "blütensymmetrie",
+                "a": "radiär, röhrig, stieltellerblüte"
+            }
+        ]
+    },
+    {
+        "family": "Brassicaceae",
+        "name": {
+            "name": "Alliaria petiolata",
+            "german name": "knoblauchsrauke"
+        },
+        "questions": [
+            {
+                "q": "fruchttyp",
+                "a": "schote"
+            },
+            {
+                "q": "standort",
+                "a": "wiesen"
+            }
+        ]
+    },
+    {
+        "family": "Brassicaceae",
+        "name": {
+            "name": "Brassica oleracea",
+            "german name": "gemüsekohl"
+        },
+        "questions": [
+            {
+                "q": "bltenstand",
+                "a": "traube"
+            },
+            {
+                "q": "blattstellung",
+                "a": "wechselständig, spiralig"
+            }
+        ]
+    },
+    {
+        "family": "Brassicaceae",
+        "name": {
+            "name": "Capsella bursa-pastoris",
+            "german name": "hirtentäschel"
+        },
+        "questions": [
+            {
+                "q": "fruchtform",
+                "a": "3-eckiges schötchen"
+            },
+            {
+                "q": "lebensalter",
+                "a": "1-2-jährig"
+            }
+        ]
+    },
+    {
+        "family": "Campanulaceae",
+        "name": {
+            "name": "Campanula rotundifolia",
+            "german name": "rundblättrige glockenblume"
+        },
+        "questions": [
+            {
+                "q": "fruchtknotenstellung",
+                "a": "unterständig"
+            },
+            {
+                "q": "standort",
+                "a": "magerwiesen, weiderasen"
+            }
+        ]
+    },
+    {
+        "family": "Cannabaceae",
+        "name": {
+            "name": "Humulus lupulus",
+            "german name": "hopfen"
+        },
+        "questions": [
+            {
+                "q": "geschlechtsverteilung",
+                "a": "diözisch"
+            },
+            {
+                "q": "wuchsform",
+                "a": "krautige liane"
+            }
+        ]
+    },
+    {
+        "family": "Caprifoliaceae",
+        "name": {
+            "name": "Valeriana officinalis",
+            "german name": "echter baldrian"
+        },
+        "questions": [
+            {
+                "q": "kronenform",
+                "a": "asymmetrisch, trichterförmig"
+            },
+            {
+                "q": "fruchttyp",
+                "a": "nussfrucht"
+            }
+        ]
+    },
+    {
+        "family": "Caryophyllaceae",
+        "name": {
+            "name": "Dianthus spec",
+            "german name": "nelke"
+        },
+        "questions": [
+            {
+                "q": "blütensymmetrie",
+                "a": "radiärsymmetrisch"
+            },
+            {
+                "q": "fruchttyp",
+                "a": "gestielte kapselfrucht"
+            }
+        ]
+    },
+    {
+        "family": "Caryophyllaceae",
+        "name": {
+            "name": "Stellaria media",
+            "german name": "vogelmiere"
+        },
+        "questions": [
+            {
+                "q": "laubblattform",
+                "a": "einfach, ei-förmig, herzförmig"
+            },
+            {
+                "q": "standort",
+                "a": "äcker, gärten (unkraut!)"
+            }
+        ]
+    },
+    {
+        "family": "Chenopodiaceae",
+        "name": {
+            "name": "Chenopodium album",
+            "german name": "weißer gänsefuß"
+        },
+        "questions": [
+            {
+                "q": "bestäubungstyp",
+                "a": "windbestäubung"
+            },
+            {
+                "q": "fruchttyp",
+                "a": "nuss"
+            }
+        ]
+    },
+    {
+        "family": "Convolvulaceae",
+        "name": {
+            "name": "Convolvulus arvensis",
+            "german name": "ackerwinde"
+        },
+        "questions": [
+            {
+                "q": "wuchsform",
+                "a": "windend, kletternd"
+            },
+            {
+                "q": "fruchttyp",
+                "a": "2-fächrige kapsel"
+            }
+        ]
+    },
+    {
+        "family": "Cupressaceae",
+        "name": {
+            "name": "Juniperus communis",
+            "german name": "gemeiner wacholder"
+        },
+        "questions": [
+            {
+                "q": "wuchsform",
+                "a": "verholzter strauch bis baum"
+            },
+            {
+                "q": "samen",
+                "a": "samen frei mit fleischiger schuppe"
+            }
+        ]
+    },
+    {
+        "family": "Cyperaceae",
+        "name": {
+            "name": "Carex flacca",
+            "german name": "blaugrüne segge"
+        },
+        "questions": [
+            {
+                "q": "blütenstand",
+                "a": "ähre"
+            },
+            {
+                "q": "stängel",
+                "a": "3-kantig"
+            }
+        ]
+    },
+    {
+        "family": "Equisetaceae",
+        "name": {
+            "name": "Equisetum arvense",
+            "german name": "ackerschachtelhalm"
+        },
+        "questions": [
+            {
+                "q": "wuchsform",
+                "a": "rhizomgeophyt"
+            },
+            {
+                "q": "laubblattstellung",
+                "a": "quirlig"
+            }
+        ]
+    },
+    {
+        "family": "Ericaceae",
+        "name": {
+            "name": "Calluna vulgaris",
+            "german name": "besenheide"
+        },
+        "questions": [
+            {
+                "q": "wuchsform",
+                "a": "immergrüner zwergstrauch"
+            },
+            {
+                "q": "kelch",
+                "a": "blütenblattartig, rosa (hell-purpur) überragt krone"
+            }
+        ]
+    },
+    {
+        "family": "Euphorbiaceae",
+        "name": {
+            "name": "Euphorbia cyparissias",
+            "german name": "zypressenwolfsmilch"
+        },
+        "questions": [
+            {
+                "q": "blütenstand",
+                "a": "cyathium"
+            },
+            {
+                "q": "fruchttyp",
+                "a": "3-tlg. spaltkapsel"
+            }
+        ]
+    },
+    {
+        "family": "Fabaceae",
+        "name": {
+            "name": "Lotus corniculatus",
+            "german name": "gewöhnlicher hornklee"
+        },
+        "questions": [
+            {
+                "q": "laubblattform",
+                "a": "3-fach gefiedert, spitz, 2 nebenblätter"
+            },
+            {
+                "q": "fruchttyp",
+                "a": "hülsenfrucht"
+            }
+        ]
+    },
+    {
+        "family": "Fabaceae",
+        "name": {
+            "name": "Medicago lupulina",
+            "german name": "hopfenklee"
+        },
+        "questions": [
+            {
+                "q": "blütenstand",
+                "a": "kugelige traube"
+            },
+            {
+                "q": "standort",
+                "a": "rasen, wiese"
+            }
+        ]
+    },
+    {
+        "family": "Fabaceae",
+        "name": {
+            "name": "Robinia pseudoacacia",
+            "german name": "gewöhnliche robinie"
+        },
+        "questions": [
+            {
+                "q": "blütenstand",
+                "a": "traube"
+            },
+            {
+                "q": "indigenat",
+                "a": "nordamerika"
+            }
+        ]
+    },
+    {
+        "family": "Fabaceae",
+        "name": {
+            "name": "Trifolium repens",
+            "german name": "weissklee"
+        },
+        "questions": [
+            {
+                "q": "laubblattform",
+                "a": "3-zählig gefingert"
+            },
+            {
+                "q": "wuchsform",
+                "a": "kriechend"
+            }
+        ]
+    },
+    {
+        "family": "Fabaceae",
+        "name": {
+            "name": "Vicia sepium",
+            "german name": "zaunwicke"
+        },
+        "questions": [
+            {
+                "q": "laubblattform",
+                "a": "einfach, paarig gefiedert, mit ranke"
+            },
+            {
+                "q": "lebensalter",
+                "a": "mehrjährig, hemikryptophyt"
+            }
+        ]
+    },
+    {
+        "family": "Fagaceae",
+        "name": {
+            "name": "Fagus sylvatica",
+            "german name": "rotbuche"
+        },
+        "questions": [
+            {
+                "q": "laubblattform",
+                "a": "einfach, glattrandig, eiförmig"
+            },
+            {
+                "q": "fruchttyp",
+                "a": "3-kantige nussfrucht"
+            }
+        ]
+    },
+    {
+        "family": "Fagaceae",
+        "name": {
+            "name": "Quercus robur",
+            "german name": "stieleiche"
+        },
+        "questions": [
+            {
+                "q": "borke",
+                "a": "tief längsrissig, grau-braun"
+            },
+            {
+                "q": "verwendung",
+                "a": "bauholz, schweinefutter"
+            }
+        ]
+    },
+    {
+        "family": "Geraniaceae",
+        "name": {
+            "name": "Geranium robertanium",
+            "german name": "stinkender storchenschnabel"
+        },
+        "questions": [
+            {
+                "q": "laubblattform",
+                "a": "3-5-tlg. gefiedert"
+            },
+            {
+                "q": "fruchttyp",
+                "a": "5-tlg. spaltfrucht"
+            }
+        ]
+    },
+    {
+        "family": "Hypericaceae",
+        "name": {
+            "name": "Hypericum perforatum",
+            "german name": "echtes johanniskraut"
+        },
+        "questions": [
+            {
+                "q": "fruchttyp",
+                "a": "spaltkapsel"
+            },
+            {
+                "q": "verwendung",
+                "a": "heildroge bei depressiven verstimmungen"
+            }
+        ]
+    },
+    {
+        "family": "Iridaceae",
+        "name": {
+            "name": "Iris pseudacorus",
+            "german name": "schwertlilie"
+        },
+        "questions": [
+            {
+                "q": "blumentyp",
+                "a": "3 blumen, 1 blüte, meranthium"
+            },
+            {
+                "q": "standort",
+                "a": "flache gewässer, ufer"
+            }
+        ]
+    },
+    {
+        "family": "Lamiaceae",
+        "name": {
+            "name": "Glechoma hederacea",
+            "german name": "gundermann"
+        },
+        "questions": [
+            {
+                "q": "stängel",
+                "a": "4-kantig"
+            },
+            {
+                "q": "blütenstand",
+                "a": "scheinquirl"
+            }
+        ]
+    },
+    {
+        "family": "Lamiaceae",
+        "name": {
+            "name": "Lamium maculatum",
+            "german name": "gefleckte taubnessel"
+        },
+        "questions": [
+            {
+                "q": "laubblattstellung",
+                "a": "kreuzgegenständig"
+            },
+            {
+                "q": "standort",
+                "a": "gebüsche, hecken, waldsäume"
+            }
+        ]
+    },
+    {
+        "family": "Liliaceae",
+        "name": {
+            "name": "Tulipa spec",
+            "german name": "tulpe"
+        },
+        "questions": [
+            {
+                "q": "fruchtknotenstellung",
+                "a": "oberständig"
+            },
+            {
+                "q": "laubblattstellung",
+                "a": "wechselständig"
+            }
+        ]
+    },
+    {
+        "family": "Magnoliaceae",
+        "name": {
+            "name": "Magnolia spec",
+            "german name": "magnolie"
+        },
+        "questions": [
+            {
+                "q": "gynoeceum",
+                "a": "chorikarp = frei, keine verwachsung"
+            },
+            {
+                "q": "blütensymmetrie",
+                "a": "radiärsymmetrisch"
+            }
+        ]
+    },
+    {
+        "family": "Malvaceae",
+        "name": {
+            "name": "Malva sylvestris",
+            "german name": "wilde malve"
+        },
+        "questions": [
+            {
+                "q": "androeceum",
+                "a": "5-∞, viele stamina verwachsen zu einer röhre"
+            },
+            {
+                "q": "fruchttyp",
+                "a": "spaltfrucht"
+            }
+        ]
+    },
+    {
+        "family": "Malvaceae",
+        "name": {
+            "name": "Tilia cordata",
+            "german name": "winterlinde"
+        },
+        "questions": [
+            {
+                "q": "diaspore",
+                "a": "fruchtstand mit radblatt"
+            },
+            {
+                "q": "verwendung",
+                "a": "tee: heildroge bei fiebrigen erkältungskrankheiten, schweißtreibend"
+            }
+        ]
+    },
+    {
+        "family": "Oleaceae",
+        "name": {
+            "name": "Forsythia x intermedia",
+            "german name": "forsythie"
+        },
+        "questions": [
+            {
+                "q": "blütensymmetrie",
+                "a": "radiär?"
+            },
+            {
+                "q": "blütezeit",
+                "a": "april - mai"
+            }
+        ]
+    },
+    {
+        "family": "Oleaceae",
+        "name": {
+            "name": "Fraxinus excelsior",
+            "german name": "gemeine esche"
+        },
+        "questions": [
+            {
+                "q": "geschlechtsverteilung",
+                "a": "triözie"
+            },
+            {
+                "q": "laubblattform",
+                "a": "unpaarig gefiedert, zusammengesetzt"
+            }
+        ]
+    },
+    {
+        "family": "Oleaceae",
+        "name": {
+            "name": "Ligustrum vulgare",
+            "german name": "gewöhnl. liguster"
+        },
+        "questions": [
+            {
+                "q": "wuchsform",
+                "a": "strauch"
+            },
+            {
+                "q": "fruchttyp",
+                "a": "steinfrucht"
+            }
+        ]
+    },
+    {
+        "family": "Papaveraceae",
+        "name": {
+            "name": "Chelidonium majus",
+            "german name": "schöllkraut"
+        },
+        "questions": [
+            {
+                "q": "petalenzahl",
+                "a": "4 petalen"
+            },
+            {
+                "q": "verwendung",
+                "a": "warzenmittel"
+            }
+        ]
+    },
+    {
+        "family": "Papaveraceae",
+        "name": {
+            "name": "Papaver rhoeas",
+            "german name": "klatschmohn"
+        },
+        "questions": [
+            {
+                "q": "perianthtyp",
+                "a": "doppelt"
+            },
+            {
+                "q": "standort",
+                "a": "in getreidefeldern"
+            }
+        ]
+    },
+    {
+        "family": "Papaveraceae",
+        "name": {
+            "name": "Corydalis cava",
+            "german name": "hohler lerchensporn"
+        },
+        "questions": [
+            {
+                "q": "blütensymmetrie",
+                "a": "dorsiventral"
+            },
+            {
+                "q": "wuchsform",
+                "a": "geophyt, krautig, aufrecht"
+            }
+        ]
+    },
+    {
+        "family": "Pinaceae",
+        "name": {
+            "name": "Larix decidua",
+            "german name": "europ. lärche"
+        },
+        "questions": [
+            {
+                "q": "nadelalter",
+                "a": "1-jährig"
+            },
+            {
+                "q": "indigenat",
+                "a": "europa"
+            }
+        ]
+    },
+    {
+        "family": "Pinaceae",
+        "name": {
+            "name": "Pinus sylvestris",
+            "german name": "waldkiefer"
+        },
+        "questions": [
+            {
+                "q": "nadelalter",
+                "a": "mehrjährig"
+            },
+            {
+                "q": "zapfenform",
+                "a": "eikegelförmig"
+            }
+        ]
+    },
+    {
+        "family": "Plantaginaceae",
+        "name": {
+            "name": "Digitalis purpurea",
+            "german name": "roter fingerhut"
+        },
+        "questions": [
+            {
+                "q": "blütensymmetrie",
+                "a": "monosymmetrisch"
+            },
+            {
+                "q": "verwendung",
+                "a": "mittel gegen herzinsuffizienz"
+            }
+        ]
+    },
+    {
+        "family": "Plantaginaceae",
+        "name": {
+            "name": "Plantago lanceolata",
+            "german name": "spitzwegerich"
+        },
+        "questions": [
+            {
+                "q": "laubblattform",
+                "a": "einfach, schmal, lanzettlich"
+            },
+            {
+                "q": "blütenstand",
+                "a": "ähre"
+            }
+        ]
+    },
+    {
+        "family": "Plantaginaceae",
+        "name": {
+            "name": "Veronica chamaedrys",
+            "german name": "gamander-ehrenpreis"
+        },
+        "questions": [
+            {
+                "q": "staminazahl",
+                "a": "2 stamina"
+            },
+            {
+                "q": "fruchttyp",
+                "a": "2-klappige kapselfrucht"
+            }
+        ]
+    },
+    {
+        "family": "Platanaceae",
+        "name": {
+            "name": "Platanus x hybrida",
+            "german name": "ahornblättrige platane"
+        },
+        "questions": [
+            {
+                "q": "laubblattform",
+                "a": "einfach, handförmig, gelappt"
+            },
+            {
+                "q": "fruchttyp",
+                "a": "nussfrucht"
+            }
+        ]
+    },
+    {
+        "family": "Poaceae",
+        "name": {
+            "name": "Elymus repens",
+            "german name": "quecke"
+        },
+        "questions": [
+            {
+                "q": "synfloreszenz",
+                "a": "ähre, zweizeilig"
+            },
+            {
+                "q": "laubblattstellung",
+                "a": "wechselständig"
+            }
+        ]
+    },
+    {
+        "family": "Poaceae",
+        "name": {
+            "name": "Dactylis glomerata",
+            "german name": "gewöhnl. knäuelgras"
+        },
+        "questions": [
+            {
+                "q": "laubblattscheide",
+                "a": "abgeflacht"
+            },
+            {
+                "q": "standort",
+                "a": "wiesen, weiden, wegrand"
+            }
+        ]
+    },
+    {
+        "family": "Poaceae",
+        "name": {
+            "name": "Lolium perenne",
+            "german name": "deutsches weidelgras"
+        },
+        "questions": [
+            {
+                "q": "ährchen",
+                "a": "4-10 blütig"
+            },
+            {
+                "q": "verwendung",
+                "a": "gebrauchsrasen"
+            }
+        ]
+    },
+    {
+        "family": "Poaceae",
+        "name": {
+            "name": "Poa annua",
+            "german name": "einjähriges rispengras"
+        },
+        "questions": [
+            {
+                "q": "blütezeit",
+                "a": "ganzjährig"
+            },
+            {
+                "q": "standort",
+                "a": "wege, gärten, äcker"
+            }
+        ]
+    },
+    {
+        "family": "Poaceae",
+        "name": {
+            "name": "Phleum pratense",
+            "german name": "wiesen-lieschgras"
+        },
+        "questions": [
+            {
+                "q": "perianthausprägung",
+                "a": "hüllspelze lang bewimpert"
+            },
+            {
+                "q": "bestäubungstyp",
+                "a": "windbestäubung"
+            }
+        ]
+    },
+    {
+        "family": "Polygonaceae",
+        "name": {
+            "name": "Rumex acetosa",
+            "german name": "wiesensauerampfer"
+        },
+        "questions": [
+            {
+                "q": "geschlechtsverteilung",
+                "a": "diözisch"
+            },
+            {
+                "q": "laubblattform",
+                "a": "pfeilförmig, spießförmig"
+            }
+        ]
+    },
+    {
+        "family": "Primulaceae",
+        "name": {
+            "name": "Primula veris",
+            "german name": "echte schlüsselblume"
+        },
+        "questions": [
+            {
+                "q": "kronenform",
+                "a": "trichterförmig, schmalröhrig"
+            },
+            {
+                "q": "fruchttyp",
+                "a": "kapsel"
+            }
+        ]
+    },
+    {
+        "family": "Ranunculaceae",
+        "name": {
+            "name": "Anemone nemorosa",
+            "german name": "buschwindröschen"
+        },
+        "questions": [
+            {
+                "q": "blütenhülle",
+                "a": "1 blüte, 6-8 perigonblätter"
+            },
+            {
+                "q": "wuchsform",
+                "a": "rhizomgeophyt"
+            }
+        ]
+    },
+    {
+        "family": "Ranunculaceae",
+        "name": {
+            "name": "Clematis vitalba",
+            "german name": "gewöhnl. waldrebe"
+        },
+        "questions": [
+            {
+                "q": "laubblattform",
+                "a": "unpaarig gefiedert"
+            },
+            {
+                "q": "wuchsform",
+                "a": "kletterpflanze"
+            }
+        ]
+    },
+    {
+        "family": "Ranunculaceae",
+        "name": {
+            "name": "Ficaria verna",
+            "german name": "scharbockskraut"
+        },
+        "questions": [
+            {
+                "q": "perianthtyp",
+                "a": "einfach"
+            },
+            {
+                "q": "gynoeceum",
+                "a": "viele fruchtblätter, frei"
+            }
+        ]
+    },
+    {
+        "family": "Rosaceae",
+        "name": {
+            "name": "Crataegus monogyna",
+            "german name": "eingriffliger weissdorn"
+        },
+        "questions": [
+            {
+                "q": "fruchttyp",
+                "a": "rote schließfrucht, steinapfel"
+            },
+            {
+                "q": "verwendung",
+                "a": "heildroge: herzstärkend"
+            }
+        ]
+    },
+    {
+        "family": "Rosaceae",
+        "name": {
+            "name": "Fragaria vesca",
+            "german name": "wald-erdbeere"
+        },
+        "questions": [
+            {
+                "q": "laubblattform",
+                "a": "3-zählig geteilt"
+            },
+            {
+                "q": "fruchttyp",
+                "a": "sammelnussfrucht"
+            }
+        ]
+    },
+    {
+        "family": "Rosaceae",
+        "name": {
+            "name": "Geum urbanum",
+            "german name": "echte nelkenwurz"
+        },
+        "questions": [
+            {
+                "q": "laubblattstellung",
+                "a": "wechselständig, 3-zählig geteilt"
+            },
+            {
+                "q": "standort",
+                "a": "stickstoffreiche auenwälder, laubwälder"
+            }
+        ]
+    },
+    {
+        "family": "Rosaceae",
+        "name": {
+            "name": "Malus domestica",
+            "german name": "kulturapfel"
+        },
+        "questions": [
+            {
+                "q": "fruchtknotenstellung",
+                "a": "unterständig"
+            },
+            {
+                "q": "indigenat",
+                "a": "asien"
+            }
+        ]
+    },
+    {
+        "family": "Rosaceae",
+        "name": {
+            "name": "Rosa spec",
+            "german name": "rose"
+        },
+        "questions": [
+            {
+                "q": "laubblattform",
+                "a": "unpaarig gefiedert, 2 nebenblätter"
+            },
+            {
+                "q": "anzahl stamina",
+                "a": "polyandrie, sehr hoch, unendlich"
+            }
+        ]
+    },
+    {
+        "family": "Rosaceae",
+        "name": {
+            "name": "Sorbus aucuparia",
+            "german name": "vogelbeere"
+        },
+        "questions": [
+            {
+                "q": "blütenstand",
+                "a": "schirmrispe"
+            },
+            {
+                "q": "fruchttyp",
+                "a": "apfelfrucht, sammelbalgfrucht"
+            }
+        ]
+    },
+    {
+        "family": "Rubiaceae",
+        "name": {
+            "name": "Galium aparine",
+            "german name": "klettlabkraut"
+        },
+        "questions": [
+            {
+                "q": "laubblattstellung",
+                "a": "quirlig"
+            },
+            {
+                "q": "fruchttyp",
+                "a": "spaltfrucht"
+            }
+        ]
+    },
+    {
+        "family": "Salicaceae",
+        "name": {
+            "name": "Populus alba",
+            "german name": "silberpappel"
+        },
+        "questions": [
+            {
+                "q": "geschlechtsverteilung",
+                "a": "diözisch"
+            },
+            {
+                "q": "fruchttyp",
+                "a": "kapselfrucht"
+            }
+        ]
+    },
+    {
+        "family": "Salicaceae",
+        "name": {
+            "name": "Salix cinerea",
+            "german name": "grauweide"
+        },
+        "questions": [
+            {
+                "q": "laubblattstellung",
+                "a": "wechselständig"
+            },
+            {
+                "q": "samenanhänge",
+                "a": "lange flughaare"
+            }
+        ]
+    },
+    {
+        "family": "Sapindaceae",
+        "name": {
+            "name": "Acer campestre",
+            "german name": "feldahorn"
+        },
+        "questions": [
+            {
+                "q": "perianthtyp",
+                "a": "doppelt, 5 kelch-, 5 kronblätter"
+            },
+            {
+                "q": "standort",
+                "a": "nährstoffreiche böden, wälder, straßen/stadt"
+            }
+        ]
+    },
+    {
+        "family": "Sapindaceae",
+        "name": {
+            "name": "Acer platanoides",
+            "german name": "spitzahorn"
+        },
+        "questions": [
+            {
+                "q": "laubblattform",
+                "a": "einfach, 5-7-lappig, ganzrandig, runde buchten, spitze spitze"
+            },
+            {
+                "q": "fruchttyp",
+                "a": "paarweise geflügelte spaltfrucht"
+            }
+        ]
+    },
+    {
+        "family": "Sapindaceae",
+        "name": {
+            "name": "Acer pseudoplatanus",
+            "german name": "bergahorn"
+        },
+        "questions": [
+            {
+                "q": "blütenstand",
+                "a": "hängende rispe"
+            },
+            {
+                "q": "bestäubungstyp",
+                "a": "insektenbestäubung"
+            }
+        ]
+    },
+    {
+        "family": "Sapindaceae",
+        "name": {
+            "name": "Aesculus hippocastanum",
+            "german name": "gewöhnl. rosskastanie"
+        },
+        "questions": [
+            {
+                "q": "laubblattform",
+                "a": "zusammengesetzt, doppelt gesägt, gefingert"
+            },
+            {
+                "q": "blütenstand",
+                "a": "aufrechte rispe"
+            }
+        ]
+    },
+    {
+        "family": "Scrophulariaceae",
+        "name": {
+            "name": "Rhinanthus serotinus",
+            "german name": "klappertopf"
+        },
+        "questions": [
+            {
+                "q": "blütensymmetrie",
+                "a": "monosymmetrisch"
+            },
+            {
+                "q": "lebensweise",
+                "a": "halbparasit"
+            }
+        ]
+    },
+    {
+        "family": "Solanaceae",
+        "name": {
+            "name": "Solanum tuberosum",
+            "german name": "kartoffel"
+        },
+        "questions": [
+            {
+                "q": "fruchttyp",
+                "a": "2-kammerige beere"
+            },
+            {
+                "q": "speicherorgan",
+                "a": "sprossknolle"
+            }
+        ]
+    },
+    {
+        "family": "Taxaceae",
+        "name": {
+            "name": "Taxus baccata",
+            "german name": "eibe"
+        },
+        "questions": [
+            {
+                "q": "samenhülle",
+                "a": "samenmantel (arillus)"
+            },
+            {
+                "q": "sekundärmetabolite",
+                "a": "alle teile außer samenmantel giftig"
+            }
+        ]
+    },
+    {
+        "family": "Ulmaceae",
+        "name": {
+            "name": "Ulmus minor",
+            "german name": "feldulme"
+        },
+        "questions": [
+            {
+                "q": "bestäubungstyp",
+                "a": "windbestäubung"
+            },
+            {
+                "q": "fruchttyp",
+                "a": "flügelnuss"
+            }
+        ]
+    },
+    {
+        "family": "Urticaceae",
+        "name": {
+            "name": "Urtica dioica",
+            "german name": "große brennnessel"
+        },
+        "questions": [
+            {
+                "q": "geschlechtsverteilung",
+                "a": "diözisch"
+            },
+            {
+                "q": "standort",
+                "a": "stickstoffreiche böden"
+            }
+        ]
+    },
+    {
+        "family": "Violaceae",
+        "name": {
+            "name": "Viola tricolor",
+            "german name": "wildes stiefmütterchen"
+        },
+        "questions": [
+            {
+                "q": "fruchttyp",
+                "a": "kapselfrucht"
+            },
+            {
+                "q": "lebensalter",
+                "a": "1-2-jährig"
+            }
+        ]
+    }
+]  

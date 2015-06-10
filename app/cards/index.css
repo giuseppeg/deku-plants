@@ -1,0 +1,122 @@
+/** @define Card; use strict */
+
+.Card {
+  position: relative;
+  box-sizing: border-box;
+  padding: 2em;
+  border-radius: 0.75%;
+  border: 1px solid #ddd;
+  box-shadow: 0 1px 2px #eee;
+  background-color: #fff;
+}
+
+.Card-fieldset {
+  border: 0;
+  margin-top: 1em;
+}
+
+.Card-field:first-child {
+  margin-top: 0;
+}
+
+.Card-field {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 0.25em;
+  font-family: 'Roboto Slab', serif;
+}
+
+.Card-field:first-child {
+  margin-top: 0;
+}
+
+.Card-input {  
+  width: 100%;
+  line-height: 2;
+  border: 0;
+  border-bottom: 1px solid #eee;
+  font-family: 'Roboto Slab', serif;
+  font-size: inherit;
+  transition: border-color 0.1s ease-out, color 0.1s ease-out;
+}
+
+.Card-input:focus {
+  outline: 0;
+  border-bottom-color: green;
+  color: green;
+}
+
+.Card-title {
+  display: block;
+  font-size: 2em;
+}
+
+.Card-button {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.5em;
+  color: green;
+  cursor: pointer;
+  border-radius: 0.25em;
+  border: 2px solid green;
+  padding: 0.5em;
+  transition: all 0.1s ease-out;
+}
+
+.Card-button:hover,
+.Card-button:focus {
+  outline: 0;
+  background-color: green;
+  color: white;
+}
+
+.Card-button--next {
+  position: absolute;
+  top: -0.5em;
+  right: -0.25em;
+  font-size: 4em;
+  width: 1em;
+  height: 1em;
+  padding: 0;
+  border-radius: 100%;
+  background-color: white;
+}
+
+.Card-answered,
+.Card-answer {
+  display: block;
+  padding: 0.25em 0.5em;
+  border-radius: 0.25em;
+}
+
+.Card-answered {
+  font-size: 1.2em;
+}
+
+.Card-answer {
+  margin-top: 0.25em;
+  font-size: 0.8em;
+}
+
+.Card-field--valid .Card-answered {
+  background-color: rgba(0, 255, 0, 0.2);
+  color: green;
+}
+
+.Card-field--valid .Card-answer { display: none; }
+
+.Card-field--invalid .Card-answered {
+  background-color: rgba(255, 0, 0, 0.2);
+  color: red;
+}
+
+.Card-field--invalid .Card-answer {
+  background-color: rgba(0, 255, 0, 0.2);
+  color: green;
+}
+
+
+@media (min-width: 768px) {
+  .Card-button--next {
+    right: -0.25em;
+  }
+}

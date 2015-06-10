@@ -1,0 +1,53 @@
+/** @define Page; use strict */
+
+.App {
+  height: 100%;
+  color: #444;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  background-color: #fefefe;
+}
+
+.App-content {
+  padding: 2.5em 0;
+  text-align: center;
+}
+
+.App-section { 
+  width: 80%;
+  max-width: 600px;
+  margin: 2.5rem auto 0; 
+  text-align: left;
+}
+
+.App-section:first-child { 
+  margin-top: 0; 
+}
+
+.App-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 0.75%;
+  box-shadow: 0 2px 20px #555;
+}
+
+@media (min-width: 768px) {
+  .App {
+    display: table;
+    min-width: 100%;
+  }
+
+  .App-content {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .App-content--main {
+    width: 60%;
+  }
+
+  .App-image {
+    margin-right: 0;
+  }
+}
