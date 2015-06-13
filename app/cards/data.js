@@ -114,6 +114,8 @@ export default class Cards extends Emitter {
 
     correct = correct.shift();
     this.mark(correct);
+    answer.name = answer.name || {};
+    answer.questions = answer.questions || {};
 
     var ret = {
       id: correct.id,
@@ -132,7 +134,7 @@ export default class Cards extends Emitter {
           correct: correct.name.name === answer.name.name
         },
         {
-          question: 'name',
+          question: 'german name',
           answer: correct.name["german name"],
           answered: answer.name["german name"]  || 'not answered',
           correct: correct.name["german name"] === answer.name["german name"]

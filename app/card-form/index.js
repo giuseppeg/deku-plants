@@ -29,15 +29,15 @@ function render({ props }) {
       <fieldset class="Card-fieldset">
         <label class="Card-field">
           <span class="Card-family">family</span>
-          <input type="text" name="family" class="Card-input" autocomplete="off" required autofocus placeholder="eg. Adoxaceae" />
+          <input type="text" name="family" class="Card-input" autocomplete="off" autofocus placeholder="eg. Adoxaceae" />
         </label>
         <label class="Card-field">
           <span class="Card-name">name</span>
-          <input type="text" name="name[name]" class="Card-input" autocomplete="off" required placeholder="eg. Sambucus nigra" />
+          <input type="text" name="name[name]" class="Card-input" autocomplete="off" placeholder="eg. Sambucus nigra" />
         </label>
         <label class="Card-field">
           <span class="Card-familyDetauls">german name</span>
-          <input type="text" name="name[german name]" class="Card-input" autocomplete="off" required placeholder="eg. schwarzer holunder" />
+          <input type="text" name="name[german name]" class="Card-input" autocomplete="off" placeholder="eg. schwarzer holunder" />
         </label>
       </fieldset>
       <fieldset class="Card-fieldset" innerHTML={questions}>
@@ -46,7 +46,7 @@ function render({ props }) {
       <div class="Card-field">
         <button class="Card-button" title="will you answer be good?">validate</button>
       </div>
-    </form>    
+    </form>
   );
 }
 
