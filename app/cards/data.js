@@ -1,12 +1,14 @@
 import clone from 'clone';
 import Emitter from 'events';
 import xhr from 'xhr';
+import pkgInfo from '../../package.json';
 
 if (typeof window !== 'undefined') var localStorage = window.localStorage;
 
 const STORAGE_KEYS = {
   LIST: 'deku-cards-list',
-  USED: 'deku-cards-used'
+  USED: 'deku-cards-used',
+  VER: 'deku-cards-ver'
 };
 const IMAGE_PATH = 'images/';
 var used = []
@@ -20,10 +22,14 @@ export default class Cards extends Emitter {
     var data;
 
     if (localStorage) {
-      data = JSON.parse(localStorage.getItem(STORAGE_KEYS.LIST));    
-      data = data && data.length ? data : null;
-      used = JSON.parse(localStorage.getItem(STORAGE_KEYS.USED));
-      used = used && used.length ? used : [];
+      let ver = localStorage.getItem(STORAGE_KEYS.VER);
+
+      if (ver === pkgInfo.version) {
+        data = JSON.parse(localStorage.getItem(STORAGE_KEYS.LIST));
+        data = data && data.length ? data : null;
+        used = JSON.parse(localStorage.getItem(STORAGE_KEYS.USED));
+        used = used && used.length ? used : [];
+      }
     }
 
     var cb = function (data, fromCache) {
@@ -41,8 +47,8 @@ export default class Cards extends Emitter {
         });
       }
       this.list = data;
-      this.emit('loaded', this.list);    
-      this.store(); 
+      this.emit('loaded', this.list);
+      this.store();
     }.bind(this);
 
     if (data) {
@@ -55,7 +61,7 @@ export default class Cards extends Emitter {
     }, (err, resp, body) => {
       if (err || resp.statusCode !== 200) {
         return;
-      }        
+      }
 
       cb(JSON.parse(body), false);
     });
@@ -66,6 +72,7 @@ export default class Cards extends Emitter {
     if (localStorage) {
       localStorage.setItem(STORAGE_KEYS.LIST, JSON.stringify(this.list));
       localStorage.setItem(STORAGE_KEYS.USED, JSON.stringify(used));
+      localStorage.setItem(STORAGE_KEYS.VER, pkgInfo.version);
     }
   }
 
@@ -85,8 +92,8 @@ export default class Cards extends Emitter {
       this.emit('no-cards');
     }
 
-    var available = this.get(card => used.indexOf(card.id) === -1);  
-    
+    var available = this.get(card => used.indexOf(card.id) === -1);
+
     if (!available.length) {
       alert('No cards left, starting over');
       this.clear();
@@ -99,7 +106,7 @@ export default class Cards extends Emitter {
 
   validate(answer) {
     var correct = this.get(c => c.id == answer.id);
-    
+
     if (!correct.length) {
       alert('Oops... question not found, loading a new card');
       return this.random();
@@ -107,8 +114,10 @@ export default class Cards extends Emitter {
 
     correct = correct.shift();
     this.mark(correct);
+    answer.name = answer.name || {};
+    answer.questions = answer.questions || {};
 
-    var ret = { 
+    var ret = {
       id: correct.id,
       img: correct.img,
       answers: [
@@ -125,7 +134,7 @@ export default class Cards extends Emitter {
           correct: correct.name.name === answer.name.name
         },
         {
-          question: 'name',
+          question: 'german name',
           answer: correct.name["german name"],
           answered: answer.name["german name"]  || 'not answered',
           correct: correct.name["german name"] === answer.name["german name"]
@@ -166,7 +175,7 @@ export default class Cards extends Emitter {
   }
 
   toggle(card, state) {
-    var iof = used.indexOf(card.id);    
+    var iof = used.indexOf(card.id);
 
     if (state) {
       if (iof !== -1) {
