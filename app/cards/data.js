@@ -145,12 +145,7 @@ export default class Cards extends Emitter {
     ret.answers = ret.answers.concat(
       correct.questions.map(question => {
         var answered = Object.keys(answer.questions).filter(id => +id === question.id);
-
-        if (answered.length == 0) {
-          return;
-        }
-
-        answered = answer.questions[answered];
+        answered = answer.questions[answered] || 'not answered';
 
         return {
           question: question.q,
