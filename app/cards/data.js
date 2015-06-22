@@ -11,7 +11,7 @@ const STORAGE_KEYS = {
   VER: 'deku-cards-ver'
 };
 const IMAGE_PATH = 'images/';
-const IMAGE_SEARCH_URL = 'https://www.googleapis.com/customsearch/v1?num=6&key=AIzaSyD1D_8NNgBe7LORWToys3sGbEmJ2uXeBTY&searchType=image&cx=006168986964877337084:gjmnc9m5axa&q={{qs}}%20plant';
+const IMAGE_SEARCH_URL = 'https://www.googleapis.com/customsearch/v1?num=6&key=AIzaSyD1D_8NNgBe7LORWToys3sGbEmJ2uXeBTY&searchType=image&cx=006168986964877337084:gjmnc9m5axa&q={{qs}}';
 var used = []
 
 export default class Cards extends Emitter {
@@ -126,7 +126,12 @@ export default class Cards extends Emitter {
         } catch (e) {
           body = {};
         }
-        card.thumbs = (body.items || []).map(item => item.image.thumbnailLink);
+        card.thumbs = (body.items || []).map(item => {
+          return {
+            thumbLink: item.image.thumbnailLink,
+            link: item.link
+          };
+        });
       }
       this.store();
       this.emit('card:async-ready', card);

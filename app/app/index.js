@@ -23,17 +23,17 @@ function render(component) {
   }
 
   var thumbnails = (card.thumbs || []).map(thumb => {
-    return <div class="App-thumb"><img src={thumb} alt="" class="App-image App-image--inline" /></div>;
+    return <a class="App-thumb" href={thumb.link} target="_blank"><img src={thumb.thumbLink} alt="" class="App-image App-image--inline" /></a>;
   });
 
   return (
       <div class="App">
         <div class="App-content">
           <figure class="App-section">
-            <img src={card.img} alt="" class="App-image" />
             <div class="App-thumbnails">
               {thumbnails}
             </div>
+            <img src={card.img} alt="" class="App-image" />
           </figure>
         </div>
         <div class="App-content App-content--main">
