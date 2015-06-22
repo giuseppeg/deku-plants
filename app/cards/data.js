@@ -11,6 +11,7 @@ const STORAGE_KEYS = {
   VER: 'deku-cards-ver'
 };
 const IMAGE_PATH = 'images/';
+const IMAGE_SEARCH_URL = 'https://www.googleapis.com/customsearch/v1?num=6&key=AIzaSyD1D_8NNgBe7LORWToys3sGbEmJ2uXeBTY&searchType=image&cx=006168986964877337084:gjmnc9m5axa&q={{qs}}%20plant';
 var used = []
 
 export default class Cards extends Emitter {
@@ -57,7 +58,8 @@ export default class Cards extends Emitter {
     }
 
     xhr({
-      uri: "./data.json"
+      uri: "./data.json",
+      timeout: 10000
     }, (err, resp, body) => {
       if (err || resp.statusCode !== 200) {
         return;
@@ -101,7 +103,34 @@ export default class Cards extends Emitter {
     }
 
     var random = available[Math.floor(Math.random() * (available.length))];
+
+    if (!random.thumbs) {
+      this.getThumbnails(random);
+      return;
+    }
+
     return random;
+  }
+
+  getThumbnails(card) {
+    var q = IMAGE_SEARCH_URL.replace('{{qs}}', encodeURIComponent(card.name.name));
+    xhr({
+      uri: q,
+      timeout: 10000
+    }, function (err, resp, body) {
+      if (err || resp.statusCode !== 200) {
+        card.thumbs = [];
+      } else {
+        try {
+          body = JSON.parse(body);
+        } catch (e) {
+          body = {};
+        }
+        card.thumbs = (body.items || []).map(item => item.image.thumbnailLink);
+      }
+      this.store();
+      this.emit('card:async-ready', card);
+    }.bind(this));
   }
 
   validate(answer) {

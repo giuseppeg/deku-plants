@@ -13,23 +13,44 @@
   text-align: center;
 }
 
-.App-section { 
+.App-section {
   width: 80%;
   max-width: 600px;
-  margin: 2.5rem auto 0; 
+  margin: 2.5rem auto 0;
   text-align: left;
 }
 
-.App-section:first-child { 
-  margin-top: 0; 
+.App-section:first-child {
+  margin-top: 0;
+}
+
+.App-thumbnails {
+  margin: 0 -0.5rem;
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 0;
+}
+
+.App-thumb {
+  display: inline-block;
+  vertical-align: middle;
+  width: 33.33333%;
+  margin-top: 1rem;
+  padding: 0 0.5rem;
+  box-sizing: border-box;
 }
 
 .App-image {
   display: block;
   margin: 0 auto;
   max-width: 100%;
+  max-height: 100%;
   border-radius: 0.75%;
   box-shadow: 0 2px 20px #555;
+}
+
+.App-image--inline {
+  display: inline-block;
 }
 
 @media (min-width: 768px) {
@@ -48,6 +69,6 @@
   }
 
   .App-image {
-    margin-right: 0;
+    max-height: 340px;
   }
 }
