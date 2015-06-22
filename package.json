@@ -1,6 +1,6 @@
 {
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "dependencies": {
     "babel": "^5.4.3",
     "bus": "^0.1.0",

@@ -16,17 +16,24 @@ function render(component) {
     bus.emit('cards:get');
   }
 
-  if (!card) {    
+  if (!card) {
     return (
       <span>loading</span>
     );
   }
 
-  return (    
+  var thumbnails = (card.thumbs || []).map(thumb => {
+    return <div class="App-thumb"><img src={thumb} alt="" class="App-image App-image--inline" /></div>;
+  });
+
+  return (
       <div class="App">
         <div class="App-content">
           <figure class="App-section">
-            <img src={card.img} alt="" class="App-image" />            
+            <img src={card.img} alt="" class="App-image" />
+            <div class="App-thumbnails">
+              {thumbnails}
+            </div>
           </figure>
         </div>
         <div class="App-content App-content--main">
